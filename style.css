@@ -1,3 +1,96 @@
 body {
-    background: blue;
-  }
+  background: rgb(30, 30, 30);
+  font-family: "aktiv-grotesk", sans-serif;
+  color: rgb(224, 233, 240);
+  font-size: 12px;
+  text-align: center;
+}
+/* 
+div {
+  border: 1px solid black;
+} */
+
+#container {
+  display: grid;
+  /*height: 100vh;*/
+  grid-template-rows: 300px 600px 50px;
+  /* border: 5px solid chartreuse; */
+}
+
+#header {
+  display: grid;
+  grid-template-columns: 300px auto auto auto auto auto auto auto auto auto;
+  /* border: 4px solid blue; */
+}
+
+#header div {
+  /* border: 1px solid yellow; */
+  background-color: rgb(255, 255, 104);
+  color: black;
+  display: inline;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  /* padding: 3px; */
+}
+
+#header div:hover{
+  background-color: darkorange;
+}
+
+#home {
+  grid-column: 3/4;
+}
+
+#main {
+  /* border: 2px solid firebrick; */
+  font-weight: 510;
+  font-size: 30px;
+  font-family: fantasy, serif;
+  line-height: 40px;
+  text-align: left;
+  padding: 100px;
+}
+
+a{
+  color: rgb(255, 255, 104);
+}
+
+p:first-child {
+  color: rgb(255, 255, 104);
+}
+
+.edu{
+  width: 700px;
+  height: 150px;
+  background-color: rgb(77, 77, 77);
+  /* box-shadow: 0 13px 13px rgba(255, 255, 255, 0.2); */
+  box-shadow: 0 1px 1px rgba(104, 104, 104, 0.12), 
+              0 2px 2px rgba(104, 104, 104, 0.12), 
+              0 4px 4px rgba(104, 104, 104, 0.12), 
+              0 8px 8px rgba(104, 104, 104, 0.12),
+              0 16px 16px rgba(104, 104, 104, 0.12);
+  border-radius: 10px;
+  margin: auto;
+}
+
+#uniLogo{
+  width: 150px;
+  height: 80%;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+#footer {
+  margin: auto;
+  text-align: center;
+  color: rgb(165, 165, 165);
+  border-top: 1px solid dimgrey;
+  top: 50%;
+  padding: 10px;
+  width: 500px;
+}
