@@ -83,6 +83,34 @@ p:first-child {
   position: relative;
   top: 15px;
   left: 10px;
+  float: left;
+  /* display: inline; */
+}
+
+.edu div{
+  font-size: 18px;
+  display: block;
+  margin-left: 180px;
+  padding-top: 20px;
+  line-height: 15px;
+}
+
+#skillDiv{
+  /* border: 2px solid red; */
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+  
+  /* overflow: hidden; */
+  /* margin-left: auto; */
+}
+
+h6{
+  color: rgb(255, 255, 104);
+  font-size: 16px;
+}
+ul{
+  padding: 15px;
 }
 
 #footer {
