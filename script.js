@@ -82,5 +82,5 @@ function contact() {
 }
 
 function blog(){
-    window.location = "https://afraa-obaid1.medium.com/why-i-decided-to-study-software-engineering-3fe236d8f303";
+    window.location.href = "https://afraa-obaid1.medium.com/why-i-decided-to-study-software-engineering-3fe236d8f303";
 }
