@@ -80,3 +80,7 @@ function contact() {
   gitHub.src = "./media/github.png";
   socialLinks.appendChild(gitHub);
 }
+
+function blog(){
+    window.location = "https://afraa-obaid1.medium.com/why-i-decided-to-study-software-engineering-3fe236d8f303";
+}
